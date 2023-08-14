@@ -1,0 +1,219 @@
+:root {
+    --image-backgroundcolor: #2a0d1f;
+    --backgroundcolor-compliment: #947c8c;
+    --text-color1: white;
+    --text-color2: #41263c;
+    --text-nav2: #EDC7B7;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--backgroundcolor-compliment);
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+h1 {
+    font-family: 'Lobster', sans-serif;
+    color: var(--text-color1)
+}
+
+section {
+    margin: 20px;
+}
+
+#header-img {
+    width: 60px;
+    object-fit: contain;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--image-backgroundcolor);
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 1rem;
+}
+
+.logo-container {
+    display: flex;
+    /*centered the AesthetiCare text next to the icon*/
+    align-items: center;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+    iframe {
+        width: 400px;
+        height: 315px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #email-section {
+        margin-top: 220px;
+    }
+}
+
+#email-section {
+    margin-top: 200px;
+    text-align: center;
+    border: none;
+
+}
+
+#introduction {
+    margin-bottom: -100px;
+}
+
+
+input::placeholder {
+    text-align: center;
+}
+
+input {
+    width: 250px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 2.5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-submit {
+    width: 160px;
+    border: none;
+    border-radius: 0;
+    background: var(--text-nav2);
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+header {
+    font-family: 'Lobster', sans-serif;
+    font-size: 1.5rem;
+}
+
+ul > li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+#Brazilian, #Laser, #Lipo, #Facial, #Acne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+div > iframe {
+    padding-top: 10px;
+}
+
+a:visited {
+    color: var(--text-nav2);
+}
+
+#online-booking {
+    border-radius: 0;
+    border: none;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+#booking-submit {
+    border: none;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    background-color: var(--text-color2);
+    color: var(--text-nav2);
+    padding: 5px;
+}
+
+#customer-testimony {
+    width: 100px;
+    height: 100%;
+    object-fit: contain;
+    box-shadow: var(--image-backgroundcolor);
+    border-radius: 10px;
+}
+
+.sarah, .mike, .teresa {
+    font-family: 'Lobster', cursive;
+    padding-left: 15px;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    padding: 15px;
+    border-left: 1px solid var(--text-color2);
+    margin-left: 20px;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--text-color2);
+    color: var(--text-nav2);
+}
+
+i {
+    color: black;
+    width: 30px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+footer > p > a {
+    color: white;
+}
+
+footer > p > a:visited {
+    color: var(--text-nav2);
+}

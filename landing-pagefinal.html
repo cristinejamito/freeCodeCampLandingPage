@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesfinal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="https://media.istockphoto.com/id/1223997363/vector/beauty-salon-logo-vector-icon-with-woman-portrait-and-decorative-elements.jpg?s=612x612&w=0&k=20&c=asUR8KDSxYQrh2rEFOB7id6k1pzsWILgljuW__M2yow=" alt="beautiful woman" loading="lazy" class="beauty-icon" id="header-img"/>
+                <h1>AesthetiCare</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#Services" class="nav-link">Services</a></li>
+                <li><a href="#Prices" class="nav-link">Prices and Sales</a></li>
+                <li><a href="#Book" class="nav-link">Book with Us</a></li>
+                <li><a href="#Testimonies" class="nav-link">Testimonies</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="email-section">
+        <p id="introduction">The journey to brighter and youthful you starts here:</p>
+        <form id="form" for="email" action="https://www.freecodecamp.com/email-submit">
+            <input 
+            type="email"
+            id="email"
+            required
+            placeholder="Enter your email here"/>
+            <input 
+            type="submit" 
+            value="Start your journey today"
+            id="submit"
+            class="email-submit"/>
+        </form>
+    </section>
+    <section id="Services">
+        <h2>Services</h2>
+        <p>Welcome to our premier aesthetic clinic, where beauty meets expertise. We specialize in a range of transformative treatments designed to enhance your natural radiance.</p>
+        <ul class="aesthetic-service">
+            <li>
+                <header><a href="#Brazilian">Brazilian Wax Removal</a></header>
+                <p>For those seeking flawless confidence, our Brazilian wax services ensure a comfortable and precise hair removal experience.</p>
+            </li>
+            <li>
+                <header><a href="#Laser">Laser Hair Removal</a></header>
+                <p>Our skilled aestheticians offer state-of-the-art laser hair removal for smooth, hair-free skin.</p>
+            </li>
+            <li>
+                <header><a href="#Liposuction">Liposuction</a></header>
+                <p>Experience the confidence of a contoured silhouette with our liposuction procedures.</p>
+            </li>
+            <li>
+                <header><a href="#Facial">Facial Mask Treatment</a></header>
+                <p>Indulge in the rejuvenating bliss of our facial mask treatments that leave your skin refreshed and glowing.</p>
+            </li>
+            <li>
+                <header><a href="#Acne">Acne Removal</a></header>
+                <p>Bid farewell to stubborn acne with our effective acne removal treatments.</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Prices">
+        <h2>Prices and Sales</h2>
+        <div id="Brazilian">
+            <header class="service">Brazilian Wax Removal</header>
+            <p class="price">$55 per session</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7BY0QLQLqXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="Laser">
+            <header class="service">Laser Hair Removal</header>
+            <p class="price">$400 for 6 session</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bToioeMDrfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="Lipo">
+            <header class="service">Liposuction</header>
+            <p class="price">$200 per session</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U9MdsDIU17s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="Facial">
+            <header class="service">Facial Mask Treatment</header>
+            <p class="price">$60 per session</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hxG1gqlaoZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="Acne">
+            <header class="service">Acne Removal Treatment</header>
+            <p class="price">$200 per session</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HXsGPN2MvNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="Book">
+        <h2>Book with Us</h2>
+        <p>You can book here in our website or email us at <a href="mailto:bookings@aestheticare.com">bookings@aestheticare.com</a>.</p>
+        <p>You can also reach us at <a href="+888-654-3321">+888-654-3321</a> for a free 15-minute consultation.</p>
+        <form id="booking">
+            <input type="date" id="online-booking" for="booking-submit" required/>
+            <input type="submit" value="Thank you for booking with us!" id="booking-submit"/>
+        </form>
+        <p> We are located at:</p>
+        <div class="address">
+            <p>
+            <a href="" class="address-link">
+            123 Beauty Avenue <br>
+            Toronto, ON M1M M1M <br>
+            Canada
+            </a>
+            </p>
+        </div>
+    </section>
+    <section id="Testimonies">
+        <header>Testimonies from our past and regular customers</header>
+        <div class="container">
+            <div class="customer">
+                <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/306871515/original/8d2b036ae115d538c6bd982923510c1312eab660/create-ultra-realistic-profile-picture-with-ai.png" alt="Sarah" id="customer-testimony"/>
+                <p class="sarah">Sarah <a href="https://www.instagram.com/your_instagram_profile" target="_blank">@sarah_in_paris<br><i class="fab fa-instagram"></i></a></p>
+            </div>
+                <blockquote>
+                    "I had struggled with unwanted hair for years, and finding this clinic was a game-changer for me. Their laser hair removal treatment was not only effective but also virtually painless. The staff was incredibly knowledgeable and made me feel comfortable throughout the entire process. I highly recommend this clinic to anyone looking for a long-lasting solution to hair removal."
+                </blockquote>
+                <br>
+            <div class="customer">
+                <img src="https://www.joe.co.uk/uploads/2023/06/Screenshot-2023-06-30-at-09.28.31.png" alt="mike" id="customer-testimony"/>
+                <p class="mike">Mike <a href="https://www.instagram.com/your_instagram_profile" target="_blank">@maverickmike<br><i class="fab fa-instagram"></i></a></p>
+            </div>
+                <blockquote>
+                    "After struggling with acne for a significant portion of my life, I finally found relief at this clinic. Their acne removal treatment was tailored to my specific needs, and the results were remarkable. The aestheticians were caring, professional, and provided me with valuable skincare advice. Thanks to them, I now have clearer, healthier skin and a boost in self-confidence."
+                </blockquote>
+                <br>
+        <div class="customer">
+                <img src="https://www.nzherald.co.nz/resizer/B9t7QRJWrLszQUrx4oTddpG811k=/576x613/smart/filters:quality(70)/cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/T3F3Q3WAKZHLZIMRLQF5PK7JYQ.jpg" alt="teresa" id="customer-testimony">
+                <p class="teresa">Teresa <a href="https://www.instagram.com/your_instagram_profile" target="_blank">@teresabloom<br><i class="fab fa-instagram"></i></a></p>
+            </div>
+                <blockquote>
+                    "I recently underwent liposuction at this clinic, and I couldn't be happier with the results. The procedure was performed by a skilled and experienced surgeon who made sure I was well-informed and comfortable throughout the entire process. The staff was friendly, attentive, and provided exceptional post-operative care. I am thrilled with my new contoured figure and would highly recommend this clinic to anyone considering liposuction."
+                </blockquote>
+        </div>
+    </section>
+    <footer>
+        <p><a href="#Services">Privacy</a></p>
+        <p><a href="Testimonies">Terms</a></p>
+        <p><a href="#Book">Contact</a></p>
+        <br>
+        <p class="footer">Find us on:</p>
+        <div class="social-icons">
+            <br>
+            <a href="https://www.instagram.com/your_instagram_profile" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/your_facebook_page" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/your_youtube_page" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
